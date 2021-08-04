@@ -6,9 +6,10 @@ namespace Calculator.Console
     {
         static void Main()
         {
-            InputOutput io = new InputOutput();
-
-            System.Console.WriteLine(io.PerformCalculation());
+            decimal d = 3.1M;
+            System.Console.WriteLine((d % 1) == 0);
+            d = 3.0M;
+            System.Console.WriteLine((d % 1) == 0);
         }
     }
 }
